@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Image, Modal, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { ModalPass } from '../../components/modal/index';
 
-let senhasCreator = "abcdefghijKlmnopqrswtuvxyzABCDEFGHIJKLMNOPKRSWTUVXYZ0123456789"
+let senhasCreator = "!@#$%&*abcdefghijKlmnopqrswtuvxyzABCDEFGHIJKLMNOPKRSWTUVXYZ0123456789"
 
 
 export function Home() {
@@ -63,7 +63,7 @@ export function Home() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'red',
+    backgroundColor: 'grey',
     alignItems: 'center',
     justifyContent: 'center',
   },
